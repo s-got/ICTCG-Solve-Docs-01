@@ -46,7 +46,7 @@ public class ThirdParty extends AbstractCompanyEntity {
 	@Data
 	@NoArgsConstructor
 	@AllArgsConstructor
-	public class PK implements Serializable{
+	public static class PK implements Serializable{
 		private Company company;
 		private String id;
 	}
